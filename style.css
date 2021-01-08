@@ -201,6 +201,10 @@ footer.v-container div {
     width: 100%;
   }
 
+  .account-links-container {
+    display: none;
+  }
+
   .global-navigation ul li {
     display: block;
   }
