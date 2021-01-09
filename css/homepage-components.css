@@ -1,0 +1,18 @@
+.carousel {
+   height: 560px; 
+}
+
+.carousel-inner {
+   height: 560px; 
+}
+
+.carousel-item {
+    height: 560px;
+}
+
+@media only screen and (max-width: 750px) {
+    .carousel {
+        display: none;
+    }
+}
+
