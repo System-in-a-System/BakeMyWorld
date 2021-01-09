@@ -10,9 +10,25 @@
     height: 560px;
 }
 
+.mini-image-container {
+    width: 35%;
+}
+
+.maxi-image-container {
+    width: 100%;
+    height: 5%;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-img:hover {
+    opacity: 0.5;
+}
+
 @media only screen and (max-width: 750px) {
     .carousel {
         display: none;
     }
 }
-
