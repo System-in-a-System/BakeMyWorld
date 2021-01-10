@@ -15,7 +15,7 @@
 
     justify-self: center;
     width: 98%;
-    height: 20vw;
+    height: 19vw;
     margin: 5px;
     overflow: hidden;
 }
@@ -31,6 +31,11 @@
     text-align: center;
     font-size: 25px;
     color: black;
+}
+
+.font-white {
+    color: white;
+    font-weight: bold;
 }
 
 .product-img:hover {
