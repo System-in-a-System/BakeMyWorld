@@ -1,0 +1,27 @@
+.product-name {
+    text-align: center;
+}
+
+.product-shots-container {
+    width: 18vw;
+}
+
+.product-shots {
+    width: 100%;
+}
+
+.product-shots img {
+    width: 100%;
+}
+
+.main-product-shot-container {
+    width: 54.5vw;
+}
+
+.main-product-shot {
+    width: 100%;
+}
+
+.main-product-shot img {
+    width: 100%;
+}
