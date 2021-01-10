@@ -36,8 +36,28 @@
 .font-white {
     color: white;
     font-weight: bold;
+    font-size: 26px;
 }
 
 .product-img:hover {
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 925px) {
+    .hero-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .grid-container {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 620px) {   
+    .grid-container {
+        grid-template-columns: 100%;
+    }
+}
+
