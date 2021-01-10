@@ -19,8 +19,12 @@
     width: 98%;
 }
 
+.product-name {
+    font-size: 14px;
+}
+
 .category-list-container  {
-    width: 35vw;
+    width: 52vw;
 }
 
 .category-list-container ul {
@@ -31,14 +35,14 @@
 .category-list-container ul li {
     padding: 7px;
     border: 0.3px solid grey;
-    background-color: white;
+    background-color: rgb(253, 249, 249);
 }
 
 .emergency-contact-container {
     align-self: center;
     text-align: center;
     padding: 7px;
-    width: 13.5vw;
+    width: 19vw;
     background-color: white;
     box-shadow: rgb(177, 177, 177) 10px 10px;
 }
