@@ -1,0 +1,44 @@
+.main-content {
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+
+.grid-container {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.product-container {
+    width: 100%;
+    height: 26vw;
+}
+
+.product-img {
+    width: 98%;
+}
+
+.category-list-container  {
+    width: 35vw;
+}
+
+.category-list-container ul {
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.category-list-container ul li {
+    padding: 7px;
+    border: 0.3px solid grey;
+    background-color: white;
+}
+
+.emergency-contact-container {
+    align-self: center;
+    text-align: center;
+    padding: 7px;
+    width: 13.5vw;
+    background-color: white;
+    box-shadow: rgb(177, 177, 177) 10px 10px;
+}
