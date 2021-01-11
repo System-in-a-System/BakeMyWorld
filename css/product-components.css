@@ -1,6 +1,7 @@
 .main-content {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 .product-name {
@@ -18,6 +19,10 @@
 
 .product-shots img {
     width: 100%;
+}
+
+.product-shots img:hover {
+    transform: scale(1.7)
 }
 
 .main-product-shot-container {
