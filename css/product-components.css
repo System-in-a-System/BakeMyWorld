@@ -53,6 +53,10 @@
     width: 30%;
 }
 
+.purchase-button-container {
+    position: relative;
+}
+
 .purchase-button {
     width: 61%;
     height: 4vw;
