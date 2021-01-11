@@ -72,7 +72,9 @@
 
       <h3 class="product-name">Not At All Fake Lorem Ipsum Cake</h3>
 
-      <div class="h-container main-content justify-content-center align-items-to-flex-start">
+      <div
+        class="h-container main-content justify-content-center align-items-to-flex-start"
+      >
         <div class="v-container product-shots-container">
           <div class="product-shots">
             <img
@@ -111,18 +113,32 @@
             inventore incidunt ut quam dolorem accusantium officiis quas harum,
             et nihil reprehenderit!
           </p>
-          <div class="h-container size-chooser justify-content-start">
-            <label for="cake-size">Cake size:</label>
-            <select name="cake-size" id="cake-size">
-              <option value="Mini">Mini</option>
-              <option value="Medium">Medium</option>
-              <option value="Big">Big</option>
-              <option value="Enormous">King Size</option>
-            </select>
-          </div>
-          <div class="h-container item-number-chooser justify-content-start">
-            <div>number</div>
-            <button>add to cart</button> 
+
+          <div class="v-container parameters-container">
+            <div>
+              <label for="cake-size">Cake size:</label>
+              <select name="cake-size" id="cake-size">
+                <option value="Mini">Mini</option>
+                <option value="Medium">Medium</option>
+                <option value="Big">Big</option>
+                <option value="Enormous">King Size</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="quantity">Quantity:</label>
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="10"
+              />
+            </div>
+
+            <div class="purchase-button-container">
+              <button class="purchase-button" onclick="alert('Cakes are on their way!')">Add To Cart</button>
+            </div>
           </div>
         </div>
       </div>
