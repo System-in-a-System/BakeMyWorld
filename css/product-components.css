@@ -1,5 +1,11 @@
+.main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .product-name {
     text-align: center;
+    margin: 3%;
 }
 
 .product-shots-container {
@@ -24,4 +30,16 @@
 
 .main-product-shot img {
     width: 100%;
+}
+
+.order-instructions-container {
+    width: 50vw;
+}
+
+.order-instructions-container .instruction-title {
+    padding: 10px;
+}
+
+.order-instructions-container .instructions {
+    padding: 10px;
 }
