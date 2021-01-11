@@ -43,3 +43,17 @@
 .order-instructions-container .instructions {
     padding: 10px;
 }
+
+.parameters-container > * > * {
+    width: 30%;
+}
+
+.purchase-button {
+    width: 61%;
+    height: 4vw;
+    background-color: rgb(252, 181, 181);;
+}
+
+.purchase-button:hover{
+    background-color: white;
+}
