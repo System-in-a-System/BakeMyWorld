@@ -116,6 +116,13 @@ header .v-container {
   padding: 15px;
 }
 
+.global-navigation ul .logo-holder img {
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: -7%;
+  overflow: visible;
+}
+
 a {
   padding-top: 5px;
   padding-bottom: 5px;
