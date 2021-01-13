@@ -1,6 +1,6 @@
 body {
   font-family: cursive;
-  background-color:  rgb(240, 234, 230);;
+  background-color: rgb(240, 234, 230);
 }
 
 
@@ -183,6 +183,10 @@ footer.v-container div {
 
 /*~~~~~~~~~~~~~ Responsive design ~~~~~~~~~~~~~~~*/
 @media only screen and (max-width: 620px) {
+  main > * > * {
+    width: 100%;
+}
+  
   .h-container {
     flex-direction: column;
     justify-content: flex-start;
