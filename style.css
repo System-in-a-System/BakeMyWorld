@@ -1,6 +1,6 @@
 body {
   font-family: cursive;
-  background-color:  rgb(240, 234, 230);;
+  background-color: rgb(240, 234, 230);
 }
 
 
@@ -69,13 +69,13 @@ body {
 
 /*----------------- Header ---------------*/
 header .h-container{
-  background-color:  rgb(236, 216, 219);
+  background-color:  rgb(243, 233, 234);
   margin: 0px;
   padding: 2px;
 }
 
 header .v-container {
-  background-color:  rgb(236, 216, 219);
+  background-color:   rgb(243, 233, 234);
   margin: 0px;
   padding: 2px;
 }
@@ -163,6 +163,7 @@ footer.v-container div {
 .bottom-links div {
   padding-left: 10%;
   padding-right: 10%;
+  overflow:visible;
 }
 
 .big-headline {
@@ -171,12 +172,12 @@ footer.v-container div {
 }
 
 .contact-info-text {
-  width: 22%;
+  width: 100%;
   font-size: 10px;
 }
 
 .contact-info-text p {
-  margin-bottom: 1px;
+  margin-bottom: 5px;
 }
 
 
