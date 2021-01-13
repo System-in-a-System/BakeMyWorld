@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baking Classes at BakeMyWorld</title>
+    <title>Registration at BakeMyWorld</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,33 +15,20 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="css/classes-components.css" />
+    <link rel="stylesheet" href="css/register-components.css" />
   </head>
 
   <body>
     <header>
       <div class="h-container">
-        <div class="v-container search-bar-container">
-          <form class="v-container search-bar-container" method="get" action="">
-            <input
-              class="search-bar"
-              type="search"
-              placeholder="Search...  "
-              required
-            />
-            <i class="material-icons left-on-top">search</i>
-          </form>
-        </div>
+        <div class="v-container search-bar-container"></div>
 
         <div class="v-container align-items-central">
-          <div class="h-container shopping-cart-icon-container">
+          <div class="shopping-cart-icon-container">
             <i class="material-icons">shopping_cart</i>
-            <div id="online-status"></div>
           </div>
           <div class="h-container account-links-container">
             <a href="index.html" class="account-link">Home</a>
-            <a href="register.html" class="account-link">Register</a>
-            <a href="login.html" class="account-link" id="login-switcher">Login</a>
           </div>
         </div>
       </div>
@@ -67,66 +54,40 @@
           alt="hero-img"
         />
         <p class="central-on-top hero-text">
-          ~~~~~~~~~~~~~~~~~~~~~~&nbsp;&nbsp;&nbsp; Learn To Bake The World A
-          Better Place &nbsp;&nbsp;&nbsp; ~~~~~~~~~~~~~~~~~~~~~~
+          ~~~~~~~~~~~~~~~~~~~~~~&nbsp;&nbsp;&nbsp; Knock Knock, Who Is There? &nbsp;&nbsp;&nbsp; ~~~~~~~~~~~~~~~~~~~~~~
         </p>
       </div>
+      <div class="registration-form-container">
+        <div class="user">
+          <header class="user__header">
+            <img
+              src="https://image.flaticon.com/icons/png/128/11/11112.png"
+              alt=""
+            />
+            <h1 class="user__title">Sign-up And Bake Your World</h1>
+          </header>
 
-      <div
-        class="h-container main-content justify-content-between align-items-to-flex-start"
-      >
-        <div class="v-container category-list-container">
-          <ul>
-            <li><a href="singleclass.html">Public Classes</a></li>
-            <li><a href="singleclass.html">Private Classes</a></li>
-            <li><a href="singleclass.html">Special Classes</a></li>
-          </ul>
-          <div class="emergency-contact-container">
-            <p>For a cake emergency</p>
-            <p>call our stores</p>
-            <p>PRIMROSE HILL STORE</p>
-            <p>02074834222</p>
-            <p>WhatsApp</p>
-            <p>078 0227 5205</p>
-          </div>
-        </div>
+          <form class="form">
+            <div class="form__group">
+              <input id="username" type="text" placeholder="Username" class="form__input" />
+            </div>
 
-        <div class="v-container classes-information-block">
-          <h2 class="classes-information-block-title">Chosen Class</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-            repudiandae quaerat saepe fuga beatae ducimus, explicabo maxime quos
-            assumenda aliquam error praesentium veniam voluptatem voluptates
-            autem id consequuntur tenetur sit?
-          </p>
+            <div class="form__group">
+              <input id="email" type="email" placeholder="Email" class="form__input" />
+            </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-            repudiandae quaerat saepe fuga beatae ducimus, explicabo maxime quos
-            assumenda aliquam error praesentium veniam voluptatem voluptates
-            autem id consequuntur tenetur sit?
-          </p>
+            <div class="form__group">
+              <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                class="form__input"
+              />
+            </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-            repudiandae quaerat saepe fuga beatae ducimus, explicabo maxime quos
-            assumenda aliquam error praesentium veniam voluptatem voluptates
-            autem id consequuntur tenetur sit?
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-            repudiandae quaerat saepe fuga beatae ducimus, explicabo maxime quos
-            assumenda aliquam error praesentium veniam voluptatem voluptates
-            autem id consequuntur tenetur sit?
-          </p>
-
-          <button
-            class="application-button"
-            onclick="alert('Application has been sent')"
-          >
-            Send Application <i class="material-icons button-icons">contact_mail</i>
-          </button>
+            <button class="btn" type="button">Register</button>
+            <div id="comment"></div>
+          </form>
         </div>
       </div>
     </main>
