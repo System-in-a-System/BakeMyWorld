@@ -10,38 +10,40 @@
     font-size: 5.875em;
   }
 
-  .emergency-contact-container {
-    margin-top: 15%;
-    align-self: center;
-    text-align: center;
-    padding: 7px;
-    width: 22.3vw;
-    background-color: white;
-    box-shadow: rgb(177, 177, 177) 10px 10px;
-  }
-  
-  .classes-information-block {
-    width: 140vw;
-}
-.classes-information-block > * {
+  .grid-container {
+    display: grid;
     margin-left: 5%;
-    margin-bottom: 3%;
-}
-a.class-button {
-    width: 150px;
-    height: 60px;
-    border: 1px solid black;
-    background-color:  rgb(252, 181, 181);
-    box-shadow: grey 5px 5px;
-    padding: 15px;
-    text-align: center;
-    font-size: auto;   
- margin-top: 10px;
+    margin-right: 5%;
+    margin-bottom: 6%;
+    grid-template-columns:  33% 33% 33%;
 }
 
-.class-button:hover {
-    background-color: white;
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    width: 98%;
+    height: 19vw;
+    margin: 5px;
+    overflow: hidden;
 }
+
+.product-img {
+  width: 100%;
+  opacity: 1.7;
+ 
+}
+.image-title {
+  position: absolute;
+  align-self: center;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(85, 3, 41);
+}
+ 
 
   @media only screen and (max-width: 896px) {
     .hero-text {
@@ -68,6 +70,14 @@ a.class-button {
       margin: 2%;
       width: 96%;
     }
+    .grid-container {
+      display: grid;
+    
+      margin-right: 5%;
+      margin-bottom: 6%;
+      grid-template-columns: 50%;
+      align-self: center;
+  }
    
   }
   
