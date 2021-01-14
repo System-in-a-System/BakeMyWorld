@@ -25,7 +25,7 @@
 }
 
 .emergency-contact-container {
-    margin-top: 15%;
+    margin-top: 20%;
     align-self: center;
     text-align: center;
     padding: 7px;
@@ -33,7 +33,12 @@
     background-color: white;
     box-shadow: rgb(177, 177, 177) 10px 10px;
 }
-
+.submenu{
+    display: none;
+}
+.submenu:hover{
+    display: block;
+}
 .classes-information-block {
     width: 140vw;
 }
