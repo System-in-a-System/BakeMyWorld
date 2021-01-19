@@ -8,6 +8,7 @@
 p.hero-text-style {
   color: rgb(207, 115, 173);
   font-size: 5.875em;
+  opacity: 0.6;
 }
 
 .corporate-intro-text {
@@ -35,13 +36,14 @@ p.hero-text-style {
 }
 
 .emergency-contact-container {
-  margin-top: 15%;
   align-self: center;
   text-align: center;
+  font-weight: lighter;
   padding: 7px;
-  width: 22.3vw;
+  width: 24vw;
   background-color: white;
   box-shadow: rgb(177, 177, 177) 10px 10px;
+  opacity: 0.5;
 }
 
 .sort-menu {
