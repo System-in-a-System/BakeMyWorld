@@ -163,6 +163,11 @@ footer.v-container div {
   margin: 5px;
 }
 
+.purchase-link:hover {
+  background-color:  rgb(95, 2, 2);
+  color: white;
+}
+
 .link-lists div {
   margin: 10px;
 }
@@ -185,6 +190,11 @@ footer.v-container div {
 
 .contact-info-text p {
   margin-bottom: 5px;
+}
+
+.final-about-us-links {
+  width: 70vw;
+  font-size: 13px;
 }
 
 
