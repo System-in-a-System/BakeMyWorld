@@ -22,7 +22,7 @@
 
 .product-img {
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .image-title {
@@ -30,17 +30,12 @@
     align-self: center;
     text-align: center;
     font-size: 25px;
-    color: black;
-}
-
-.font-white {
-    color: white;
-    font-weight: bold;
-    font-size: 26px;
+    font-weight: bolder;
+    color:black;
 }
 
 .product-img:hover {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 @media only screen and (max-width: 925px) {
