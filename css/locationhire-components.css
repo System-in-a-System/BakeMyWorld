@@ -10,6 +10,10 @@
     height: 35vw;
 }
 
+.mapouter {
+    margin: 20%;
+}
+
 .side-pictures {
     width: 60vw;
     height: 41vw;
@@ -74,6 +78,12 @@
     background-color: white;
     box-shadow: rgb(177, 177, 177) 10px 10px;
 }
+
+.information-block > * {
+    margin: 4.5%;
+    align-self: center;
+}
+
 
 .classes-information-block {
     width: 140vw;

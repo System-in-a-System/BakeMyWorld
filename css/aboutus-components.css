@@ -5,10 +5,13 @@
     margin-left: 5%;
   }
   
+  .hero-img {
+    height: 28vw;
+  }
+
   p.hero-text-style {
-    color: rgb(207, 115, 173);
+    color: gray;
     font-size: 5.875em;
-    opacity: 0.6;
   }
 
   .grid-container {

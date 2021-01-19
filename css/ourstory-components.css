@@ -5,12 +5,13 @@
     margin-left: 10%;
 }
 .hero-img {
-    height: 35vw;
-    opacity: 0.7;
+    height: 28vw;
+    opacity: 0.3;
 }
 p.hero-text-style {
-    color: white;
+    color: gray;
     font-size: 5.875em;
+    opacity: 0.9;
   }
 .location-intro-text {
     text-align:start;
