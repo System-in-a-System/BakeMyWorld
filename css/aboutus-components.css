@@ -60,7 +60,7 @@
  
 
   @media only screen and (max-width: 896px) {
-    .hero-text {
+    .hero-text-style {
       display: none;
     }
   
@@ -83,6 +83,10 @@
     .main-content > * > * {
       margin: 2%;
       width: 96%;
+    }
+    
+    .image-container {
+      width: 100%;
     }
     .grid-container {
       display: grid;

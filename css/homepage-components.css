@@ -48,13 +48,8 @@
     opacity: 0.4;
 }
 
-@media only screen and (max-width: 750px) {
-    .carousel {
-        display: none;
-    }
-}
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 820px) {
     .maxi-image-container {
         display: none;
     }
@@ -63,3 +58,10 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 750px) {
+    .carousel {
+        display: none;
+    }
+}
+

@@ -130,13 +130,25 @@ p.hero-text-style {
 
 
 @media only screen and (max-width: 896px) {
-    .hero-text {
+    .hero-text-style {
+        display: none;
+    }
+
+    .emergency-contact-container {
+        display: none;
+    }
+
+    .sidebar-container {
         display: none;
     }
 
     .main-content {
         margin-left: 0%;
         margin-right: 0%;
+    } 
+    
+    .location-intro-text {
+        width: 40%;
     }
 }
 
@@ -149,13 +161,5 @@ p.hero-text-style {
         margin: 2%;
         width: 96%;
     }
-
-    .main-content > * > * {
-        margin: 2%;
-        width: 96%;
-    }
-    p.hero-text-style {
-       display: none;
-      }
 }
 
