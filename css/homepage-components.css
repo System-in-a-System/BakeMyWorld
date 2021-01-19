@@ -32,19 +32,20 @@
 
 .product-img {
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .image-title {
     position: absolute;
     align-self: center;
     text-align: center;
-    font-size: 25px;
-    color: black;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(95, 2, 2);
 }
 
 .product-img:hover {
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 @media only screen and (max-width: 750px) {
