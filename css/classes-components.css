@@ -18,6 +18,7 @@
     padding: 15px;
     border: 0.3px solid grey;
     background-color: rgb(253, 249, 249);
+    opacity: 0.8;
 }
 
 .category-list-container ul li:hover {
@@ -25,20 +26,16 @@
 }
 
 .emergency-contact-container {
-    margin-top: 20%;
     align-self: center;
     text-align: center;
+    font-weight: lighter;
     padding: 7px;
-    width: 22.3vw;
+    width: 24vw;
     background-color: white;
     box-shadow: rgb(177, 177, 177) 10px 10px;
+    opacity: 0.5;
 }
-.submenu{
-    display: none;
-}
-.submenu:hover{
-    display: block;
-}
+
 .classes-information-block {
     width: 140vw;
 }
@@ -48,23 +45,37 @@
 }
 
 .classes-information-block > * {
-    margin-left: 5%;
-    margin-bottom: 3%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    opacity: 0.8;
 }
 
-.class-button {
-    width: 150px;
-    height: 60px;
-    border: 1px solid black;
-    background-color:  rgb(252, 181, 181);
-    box-shadow: grey 5px 5px;
-    padding: 15px;
+.class-image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 23vw;
+    height: 17vw;
+}
+
+.class-image {
+    opacity: 0.7;
+}
+
+.class-image:hover {
+    opacity: 0.5;
+}
+
+.class-title {
+    position: absolute;
+    align-self: center;
     text-align: center;
-    font-size: auto;   
-}
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
 
-.class-button:hover {
-    background-color: white;
 }
 
 .application-button {
