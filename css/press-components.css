@@ -4,8 +4,10 @@
     margin-right: 10%;
     margin-left: 10%;
 }
+
 .hero-img{
     opacity: 0.50;
+    height: 30vw;
 }
 
 p.hero-text-style {
@@ -19,6 +21,17 @@ p.hero-text-style {
     margin-right: 5%;
     margin-bottom: 6%;
     grid-template-columns: 30% 30% 30%;
+}
+
+.emergency-contact-container {
+    align-self: center;
+    text-align: center;
+    font-weight: lighter;
+    padding: 7px;
+    width: 20vw;
+    background-color: white;
+    box-shadow: rgb(177, 177, 177) 10px 10px;
+    opacity: 0.5;
 }
 
 .image-container {
