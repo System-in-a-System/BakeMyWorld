@@ -6,6 +6,10 @@
     grid-template-columns: 25% 25% 25% 25%;
 }
 
+.hero-img {
+    height: 30vw;
+}
+
 .image-container {
     position: relative;
     display: flex;
